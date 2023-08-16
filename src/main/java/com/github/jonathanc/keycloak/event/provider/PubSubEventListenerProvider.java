@@ -70,7 +70,7 @@ public class PubSubEventListenerProvider implements EventListenerProvider {
   }
 
   /*
-   * TODO: If want to improve resource usage and velocity you impl. a batchConfig.
+   * TODO: If want to improve resource usage and velocity you can use a batchConfig.
    */
   private void publish(
       final String message, final Map<String, String> attributes) {
