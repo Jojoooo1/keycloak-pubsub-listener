@@ -57,4 +57,9 @@ operationType: "UPDATE"
 If you want to use pubsub emulator uncomment `PUBSUB_EMULATOR_HOST=pubsub:8085`
 in `docker-compose.yaml`
 
+#### TODO
+
+Add cli params to only publish admin event in order to improve resource usage. This is the most
+common use case to sync keycloak user and external database.
+
 
