@@ -16,5 +16,4 @@ rm: ## Stop and remove docker-compose
 	docker compose stop
 	docker compose rm -f
 
-package-and-start: ## Package, stop, remove and start docker-compose
-	rm remove-image package up
+package-and-start: rm remove-image package up ## Package, stop, remove and start docker-compose
